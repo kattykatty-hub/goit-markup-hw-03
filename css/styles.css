@@ -58,6 +58,13 @@ button:focus
     gap: 40px;  
 }
 .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-header{
+    max-width: 1150px;
+    width: 100%;
     padding: 25px 200px;
     display: flex;
     align-items: center;
@@ -232,15 +239,23 @@ header a {
     color: var(--color-navy-blue);
 }
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer{
+    background: var(--color-navy-blue);
+    
+}
+.container-footer{
+    max-width: 1150px;
+    width: 100%;
     padding: 100px 1000px 100px 200px;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 17px;
-
-}
-footer{
-    background: var(--color-navy-blue);
 
 }
 .header--margin{
@@ -260,7 +275,7 @@ footer{
     gap: 24px;
     align-items: center;
 }
-.
+
 .logo-footer {
     background: var(--color-navy-blue);
     text-decoration: none; /* Remove default underline */
