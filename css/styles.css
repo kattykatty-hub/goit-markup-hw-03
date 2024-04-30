@@ -176,12 +176,158 @@ h3 {
     text-decoration: underline;
 }
 
-
-.hero {
-    background: var(--color-navy-blue, #2E2F42);
-    padding: 188px 0px;
+.footer_social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
 }
 
+.instagram, .twitter, .facebook, .ld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 408px;
+    height: 584px;
+    background-color: #fff;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 250px 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .close-modal-btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .customer_text {
+    color:#2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .wrapper {
+      padding: 120px 0;
+  }
+
+  .customer_info {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
+  }
+
+  .cunstomer_list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+  }
+  
+  .customer_item {
+    border: 1px solid #8E8F99;
+    border-radius: 5px;
+    padding: 16px 32px;
+    width: 104px;
+    height: 56px;
+  }
+
+
+  .button {
+    border: 1px solid #98a1f3;
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: #E7E9FC;
+    top: -230px;
+    right: -180px;
+    cursor: pointer;
+  }
+  
+  
+  .modal:not(.is-hidden) {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+.footer_content {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+
+.hero {
+    padding: 188px 0px;
+    background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url('../images/people-office\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.icon-item-block{
+    background-color: var(--color-cloud);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+.social-media-item{
+    background-color: var(--color-iris);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.social-media-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
 .hero h1 {
     max-width: 496px;
     margin: 0 auto 48px;
@@ -255,16 +401,15 @@ h3 {
 
 }
 
-.our-team-img {}
-
 .our-team-name {
     margin-bottom: 8px;
 }
 
 .our-team-p {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     padding: 32px 0;
     text-align: center;
+    
 }
 
 header a {
@@ -318,10 +463,6 @@ footer {
     flex-direction: column;
     align-items: start;
     gap: 17px;
-}
-
-.header--margin {
-/*    margin-bottom: 96px;*/
 }
 
 .filters {
@@ -468,7 +609,35 @@ footer p {
     /* 4px dotted lighter gray */
 }
 
+.effect {
+    position: relative;
+    overflow: hidden;
 }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    background-color: #4D5AE5;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .project-link:hover .overlay {
+    height: 100%;
+    opacity: 0.7;
+  }
+  
+  .overlay-text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
 .card-content-img {
     min-width: 360px;
@@ -536,6 +705,4 @@ footer p {
 
 .color-modal-background {
     color: var(--color-dairy);
-    /* White background color *
 }
-/* -------- Color Classes --------*/
