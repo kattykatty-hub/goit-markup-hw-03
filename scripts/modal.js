@@ -13,6 +13,7 @@
     function toggleModal() {
       refs.modal.classList.toggle("is-hidden");
     }
+<<<<<<< HEAD
 })();
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -35,3 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+=======
+})();   
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be

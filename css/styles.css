@@ -191,7 +191,11 @@ h3 {
 
 .modal {
     width: 408px;
+<<<<<<< HEAD
     min-height: 584px;
+=======
+    height: 584px;
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
     background-color: #fff;
 }
 
@@ -212,6 +216,7 @@ h3 {
   }
   
   .modal-content {
+<<<<<<< HEAD
     width: 408px;
     min-height: 584px;
     background-color: #fff;
@@ -219,6 +224,12 @@ h3 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(46, 47, 66, 0.40);
     position: relative;
+=======
+    background-color: #fff;
+    padding: 250px 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
   }
 
   .close-modal-btn {
@@ -242,9 +253,21 @@ h3 {
     text-transform: capitalize;
   }
 
+<<<<<<< HEAD
 .customer{
     padding: 120px 0;
 }
+=======
+  .wrapper {
+      padding: 120px 0;
+  }
+
+  .customer_info {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
+  }
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
 
   .cunstomer_list {
       display: flex;
@@ -252,6 +275,7 @@ h3 {
       align-items: center;
       gap: 24px;
   }
+<<<<<<< HEAD
 
   .active {
     position: relative;
@@ -267,6 +291,8 @@ h3 {
     background-color: #404BBF;
     border-radius: 4px;
 }
+=======
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
   
   .customer_item {
     border: 1px solid #8E8F99;
@@ -274,6 +300,7 @@ h3 {
     padding: 16px 32px;
     width: 104px;
     height: 56px;
+<<<<<<< HEAD
     transition: all 0.3s;
   }
 
@@ -295,10 +322,13 @@ h3 {
       display: flex;
       flex-direction: column;
       gap: 72px;
+=======
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
   }
 
 
   .button {
+<<<<<<< HEAD
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -306,6 +336,18 @@ h3 {
     align-items: center;
     top: 20px;
     right: 20px;
+=======
+    border: 1px solid #98a1f3;
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: #E7E9FC;
+    top: -230px;
+    right: -180px;
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
     cursor: pointer;
   }
   
@@ -350,17 +392,24 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 12px;
+<<<<<<< HEAD
     transition: all 0.3s;
 }
 .social-media-item:hover{
     background-color:#31D0AA ;
+=======
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
 }
 .social-media-list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
+<<<<<<< HEAD
     
+=======
+    margin-bottom: 32px;
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
 }
 .hero h1 {
     max-width: 496px;
@@ -433,6 +482,7 @@ h3 {
 
 }
 
+<<<<<<< HEAD
 
 .team_container{
     display: flex;
@@ -441,6 +491,17 @@ h3 {
     justify-content: center;
     gap: 8px;
     padding: 32px 0;
+=======
+.our-team-name {
+    margin-bottom: 8px;
+}
+
+.our-team-p {
+    margin-bottom: 8px;
+    padding: 32px 0;
+    text-align: center;
+    
+>>>>>>> dbdb09818f2d8bf5e5b779c460d90b19cd1764be
 }
 header a {
     text-decoration: none;
